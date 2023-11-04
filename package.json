@@ -1,0 +1,31 @@
+{
+  "name": "noda-hw-01",
+  "version": "1.0.0",
+  "description": "first step to node",
+  "main": "index.js",
+  "scripts": {
+    "test": "\"jest\"",
+    "start": "node ./src/index.js",
+    "dev": "nodemon ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zmeimor/noda-hw-01.git"
+  },
+  "keywords": [
+    "[]"
+  ],
+  "author": "\"S.Brekhov\"",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zmeimor/noda-hw-01/issues"
+  },
+  "homepage": "https://github.com/Zmeimor/noda-hw-01#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "uuid": "^8.3.2",
+    "yargs": "^17.6.2"
+  }
+}

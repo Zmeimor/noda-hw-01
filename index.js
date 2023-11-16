@@ -12,7 +12,6 @@ async function invokeAction({ action, id, name, email, phone }) {
       case "list":
       const list = await listContacts();
       console.log(list);
-      // ...
         break;
     
       case "get":
@@ -21,14 +20,12 @@ async function invokeAction({ action, id, name, email, phone }) {
             throw new Error (`Contact with ${id} not find`);
         };
         console.log(get);
-      // ... id
         break;
   
       case "add":
         const add = await addContact(name, email, phone);
 
         console.log(add);
-        // ... name email phone
         break;
   
       case "remove":
@@ -37,7 +34,6 @@ async function invokeAction({ action, id, name, email, phone }) {
             throw new Error (`Contact with ${id} not find`);
         };
         console.log(remove);
-        // ... id
         break;
   
       default:
